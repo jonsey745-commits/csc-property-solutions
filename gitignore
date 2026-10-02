@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.sites-runtime/
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+.vercel/
+.DS_Store
+*.zip
