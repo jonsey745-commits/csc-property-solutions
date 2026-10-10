@@ -1,0 +1,9 @@
+# Canonicalise trailing slashes. Static .html files provide each page's initial content.
+/services/ /services 301
+/services/driveway-cleaning/ /services/driveway-cleaning 301
+/about/ /about 301
+/our-work/ /our-work 301
+/areas/ /areas 301
+/contact/ /contact 301
+/services/patio-cleaning/ /services/patio-cleaning 301
+/privacy/ /privacy 301

@@ -1,0 +1,10 @@
+CSC TEST performance update v2
+
+Upload src/App.jsx replacing the old file.
+Upload index.html replacing the old file.
+Upload all five .webp images into public/.
+Keep the existing src/style.css and public/driveway-patio-scenes.webp from the previous performance update.
+Do not upload to the live repository.
+Do not delete original images yet.
+
+Changes: optimized image assets, hero preload and fetch priority, lazy loading for below-fold images.
