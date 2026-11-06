@@ -1,0 +1,12 @@
+CSC Resend contact form update
+
+Vercel Production environment variables:
+RESEND_API_KEY = private sending API key (Secret)
+CONTACT_TO_EMAIL = caeleb@cscpropertysolutionsltd.co.uk
+CONTACT_FROM_EMAIL = CSC Website <enquiries@cscpropertysolutionsltd.co.uk>
+
+Deploy all files to the repository root, preserving the api/contact.js path. Vercel detects api/contact.js as a serverless function. Do not commit the API key. After deployment, submit a test enquiry, verify CSC inbox and Resend logs. Check Vercel Function logs if delivery fails.
+
+Spam prevention: includes a honeypot, validation and same-origin check; for production traffic, consider Vercel WAF rate limits or Turnstile server-side verification.
+
+Privacy notice was updated to identify Vercel and Resend. Review with client before publishing.
